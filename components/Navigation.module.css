@@ -1,0 +1,18 @@
+.header{
+    border: 1px solid #1adaf3;
+    border-radius: 4px;
+    padding: 4px;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.navigation a:hover{
+    color: #1adaf3;
+    text-decoration: underline;
+}
+
+/* generate color golden # */
+/* https://www.w3schools.com/colors/colors_picker.asp */
+

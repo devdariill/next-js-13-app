@@ -1,0 +1,9 @@
+function Post({params}) {
+  const {id}=params;
+  return (
+    <div>
+      <h1>Post numero {id}</h1>
+    </div>
+  )
+}
+export default Post
