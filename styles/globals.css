@@ -20,6 +20,9 @@ body{
   max-width: 800px;
   margin: 0 auto;
 }
+h1{
+  font-family: var(--font-grotesk),sans-serif;
+}
 
 @media (prefers-color-scheme: dark) {
   html {

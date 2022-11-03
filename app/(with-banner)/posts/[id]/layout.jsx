@@ -12,7 +12,7 @@ export default async function Post({children, params }) {
   <>
     <h1>Post {id}</h1>
       <article key={post.id}>
-        <h2 style={{ color: "#09f" }}>{post.title}</h2>
+        <h2>{post.title}</h2>
         <p>{post.body}</p>
         <Link href={`/posts/${id}/comments`}>Ver Comentarios</Link>
         {children}
