@@ -2,9 +2,9 @@ import { Counter } from "./Counter.jsx";
 function PostLayout({ children }) {
   return (
     <>
-      <Counter />
-      <div>PostLayout</div>
+      <small>Home &bull; Posts</small>
       {children}
+      <Counter />
     </>
   );
 }
