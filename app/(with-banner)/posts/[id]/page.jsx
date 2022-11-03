@@ -1,7 +1,7 @@
 import React from 'react'
 
 function page() {
-  return (null  )
+  return <h1>PageCommentsChildren</h1>
 }
 
 export default page
