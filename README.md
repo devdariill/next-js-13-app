@@ -8,6 +8,9 @@
   - configuring fetch to
     - ,{cache:"no-store"} for server side / dynamic
     - ,{next:{revalidate:60}} refresh every ${time}
+  - using loading - page
+  - throw new Error - page
+  - using (with-banner) with layout like extend for a benner with marquee
 - "use client"
   - 'the alternative of fetch is "use"'
 
