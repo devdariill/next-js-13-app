@@ -1,3 +1,19 @@
+## Create an app with Next13 using
+- using appDir : true - config of next
+  - deleting "page"
+  - page.jsx used for define the new pages 
+  - layout like extends
+  - new styles css hashing
+  - change the useEffect , useState to just a fetch and async compponent
+  - configuring fetch to
+    - ,{cache:"no-store"} for server side / dynamic
+    - ,{next:{revalidate:60}} refresh every ${time}
+- "use client"
+  - 'the alternative of fetch is "use"'
+
+
+![image](https://user-images.githubusercontent.com/93483481/199947530-831581e9-2177-4298-a441-ee41cba30b43.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
